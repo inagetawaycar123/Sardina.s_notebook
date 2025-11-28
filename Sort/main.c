@@ -10,6 +10,7 @@ void printArray(int arr[], int len);
 int* generateRandomArray(int len);
 // Declare your sorting function here
 extern int* InsertionSort(int* array, int length);
+extern int* BubbleSort(int* array, int length);
 
 int main() {
     int n;
@@ -21,7 +22,21 @@ int main() {
     printf("\nBefore sorting:\n");
     n <= 100 ? printArray(arr, n) : printf("(Omitted)\n");
 
-    InsertionSort(arr, n);
+    int choose;
+    printf("Which sort do you like?\n");
+    printf("1:Insertionsort;\n");
+    printf("2:Bubblesort:\n");
+
+    scanf("%d", &choose);
+    switch(choose){
+        case 1:
+            InsertionSort(arr, n);
+            break;
+        case 2:
+            BubbleSort(arr, n);
+            break;
+    }
+    
 
     printf("\nAfter sorting:\n");
     n <= 100 ? printArray(arr, n) : printf("(Omitted)\n");

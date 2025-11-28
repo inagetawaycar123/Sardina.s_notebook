@@ -186,6 +186,8 @@
   },
   "active": "e21f7bd3db7bc85a",
   "lastOpenFiles": [
+    "Sort/Sort.exe",
+    "Sort/main.exe",
     "Sort/main.c",
     "Sort/InsertionSort.c",
     "Sort/Insertion.exe",
@@ -220,8 +222,6 @@
     "LeetCode-2.最大公共前缀.md",
     "LeetCode-3.删除有序数组中的重复项.md",
     "未命名 4.base",
-    "未命名 3.base",
-    "未命名 2.base",
     "未命名.canvas"
   ]
 }
