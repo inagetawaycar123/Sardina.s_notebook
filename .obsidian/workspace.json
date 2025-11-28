@@ -1,0 +1,227 @@
+{
+  "main": {
+    "id": "b3f5af79b065709e",
+    "type": "split",
+    "children": [
+      {
+        "id": "857377fe47e99242",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9682548a14d95676",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "排序算法/插入排序.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "插入排序"
+            }
+          },
+          {
+            "id": "e21f7bd3db7bc85a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "排序算法/插入排序.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "插入排序"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5b6f1f84042b207b",
+    "type": "split",
+    "children": [
+      {
+        "id": "66e79c9d58ea9420",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8a7114e148a2f22a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": true
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "9c62da82eb598532",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "0bb74a38c1010cef",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ab515032d0f82872",
+    "type": "split",
+    "children": [
+      {
+        "id": "5789010eba0d5cb0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4294fcb5752d092b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "LeetCode学习总结.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "LeetCode学习总结 的反向链接列表"
+            }
+          },
+          {
+            "id": "2042a05e8c29d189",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "排序算法/插入排序.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-going-out",
+              "title": "插入排序 的出链列表"
+            }
+          },
+          {
+            "id": "10a6bd6f55adc131",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "941b15818038c6c0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2025-09-29.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "2025-09-29 的大纲"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:创建新数据库": false
+    }
+  },
+  "active": "e21f7bd3db7bc85a",
+  "lastOpenFiles": [
+    "排序算法/冒泡排序.md",
+    "排序算法/插入排序.md",
+    "LeetCode/LeetCode-10.计算质数.md",
+    "排序算法",
+    "LeetCode/LeetCode-9.删除链表的倒数第N个节点.md",
+    "LeetCode/LeetCode-1.两数之和.md",
+    "LeetCode/LeetCode-2.最大公共前缀.md",
+    "LeetCode/LeetCode-3.删除有序数组中的重复项.md",
+    "LeetCode/LeetCode-4.移除元素.md",
+    "LeetCode/LeetCode-5.搜索插入位置.md",
+    "LeetCode/LeetCode-6.二分法找平方根.md",
+    "LeetCode/LeetCode-7.搜索旋转排序数组.md",
+    "LeetCode/LeetCode-8.两数相加.md",
+    "LeetCode.base",
+    "LeetCode-10.计算质数.md",
+    "LeetCode",
+    "LeetCode-9.删除链表的倒数第N个节点.md",
+    "LeetCode-8.两数相加.md",
+    "Latex使用教程.md",
+    "Why I choose HUST.md",
+    "LeetCode-6.二分法找平方根.md",
+    "LeetCode-5.搜索插入位置.md",
+    "malloc.md",
+    "LeetCode-7.搜索旋转排序数组.md",
+    "HTML简明教程.md",
+    "LeetCode-2.最大公共前缀.md",
+    "LeetCode-3.删除有序数组中的重复项.md",
+    "LeetCode-1.两数之和.md",
+    "LeetCode-4.移除元素.md",
+    "未命名 4.base",
+    "未命名 3.base",
+    "未命名 2.base",
+    "未命名 1",
+    "未命名 1.base",
+    "未命名.base",
+    "未命名/未命名.base",
+    "未命名.canvas"
+  ]
+}
