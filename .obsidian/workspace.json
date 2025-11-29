@@ -27,16 +27,56 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "排序算法/插入排序.md",
+                "file": "排序算法/冒泡排序.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "插入排序"
+              "title": "冒泡排序"
+            }
+          },
+          {
+            "id": "e7dd955d6c8ccf0e",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.6"
+              },
+              "icon": "lucide-book-up",
+              "title": "版本说明 1.10.6"
+            }
+          },
+          {
+            "id": "1bf5b1a8427648d5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "排序算法/选择排序.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "选择排序"
+            }
+          },
+          {
+            "id": "59c419747d8b5f12",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "排序算法/归并排序.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "归并排序"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -128,12 +168,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "排序算法/插入排序.md",
+                "file": "排序算法/归并排序.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "插入排序 的出链列表"
+              "title": "归并排序 的出链列表"
             }
           },
           {
@@ -184,8 +224,12 @@
       "bases:创建新数据库": false
     }
   },
-  "active": "e21f7bd3db7bc85a",
+  "active": "8a7114e148a2f22a",
   "lastOpenFiles": [
+    "排序算法/选择排序.md",
+    "排序算法/插入排序.md",
+    "排序算法/归并排序.md",
+    "排序算法/冒泡排序.md",
     "Sort/Sort.exe",
     "Sort/main.exe",
     "Sort/main.c",
@@ -193,9 +237,7 @@
     "Sort/Insertion.exe",
     "Sort/BubbleSort.c",
     "Sort",
-    "排序算法/冒泡排序.md",
     "malloc.md",
-    "排序算法/插入排序.md",
     "README.md",
     "LeetCode/LeetCode-10.计算质数.md",
     "排序算法",
@@ -220,8 +262,6 @@
     "LeetCode-7.搜索旋转排序数组.md",
     "HTML简明教程.md",
     "LeetCode-2.最大公共前缀.md",
-    "LeetCode-3.删除有序数组中的重复项.md",
-    "未命名 4.base",
     "未命名.canvas"
   ]
 }
