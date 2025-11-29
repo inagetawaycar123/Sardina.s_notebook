@@ -11,6 +11,7 @@ int* generateRandomArray(int len);
 // Declare your sorting function here
 extern int* InsertionSort(int* array, int length);
 extern int* BubbleSort(int* array, int length);
+extern int* SelectSort(int *array, int length);
 
 int main() {
     int n;
@@ -25,7 +26,8 @@ int main() {
     int choose;
     printf("Which sort do you like?\n");
     printf("1:Insertionsort;\n");
-    printf("2:Bubblesort:\n");
+    printf("2:Bubblesort;\n");
+    printf("3:SelectSort.\n");
 
     scanf("%d", &choose);
     switch(choose){
@@ -34,6 +36,9 @@ int main() {
             break;
         case 2:
             BubbleSort(arr, n);
+            break;
+        case 3:
+            SelectSort(arr, n);
             break;
     }
     
