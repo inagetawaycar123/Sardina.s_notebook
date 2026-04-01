@@ -2,17 +2,22 @@
 #include <stdlib.h>
 #include <time.h>
 
-#define MAX_LEN 10000
+#define MAX_LEN 100
 #define MIN_VAL 0
 #define MAX_VAL 100000
 
 void printArray(int arr[], int len);
 int* generateRandomArray(int len);
+
+
 // Declare your sorting function here
 extern void InsertionSort(int* array, int length);
 extern void BubbleSort(int* array, int length);
 extern void SelectSort(int *array, int length);
 extern void MergeSort(int *array, int length);
+extern void ShellSort(int *array, int length);
+extern void QuickSort(int *array, int low, int high);
+
 
 int main() {
     int n;
@@ -29,7 +34,9 @@ int main() {
     printf("1:Insertionsort;\n");
     printf("2:Bubblesort;\n");
     printf("3:SelectSort;\n");
-    printf("4:MergeSort.\n");
+    printf("4:MergeSort;\n");
+    printf("5:ShellSort;\n");
+    printf("6:QuickSort.\n");
 
     scanf("%d", &choose);
     switch(choose){
@@ -44,6 +51,12 @@ int main() {
             break;
         case 4:
             MergeSort(arr, n);
+            break;
+        case 5:
+            ShellSort(arr, n);
+            break;
+        case 6:
+            QuickSort(arr, 0, n-1);
             break;
     }
     

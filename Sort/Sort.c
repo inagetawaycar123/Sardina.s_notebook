@@ -77,3 +77,41 @@ extern void MergeSort(int *array, int length){
     }  
     free(b);
 }
+
+extern void ShellSort(int *array, int length){
+    int gap, i, j, temp;
+    for(gap = length/2; gap > 0; gap /= 2){
+        for(i = 0; i + gap < length; i++){
+            j = i + gap;
+            if(array[i] > array[j]){
+                temp = array[i];
+                array[i] = array[j];
+                array[j] = temp;
+            }
+        }
+    }
+}
+
+int Partition(int *array, int low, int high){
+    int pivot = array[low];
+    while(low < high){
+        while(high > low && array[high] >= pivot){
+            --high;
+        }
+        array[low] = array[high];
+        while(low < high && array[low] <= pivot){
+            ++low;
+        }
+        array[high] = array[low];
+    }
+    array[low] = pivot;
+    return low;
+}
+
+extern void QuickSort(int *array, int low, int high){
+    if(low < high){
+        int pivotpos = Partition(array, low, high);
+        QuickSort(array, low, pivotpos-1);
+        QuickSort(array, pivotpos+1, high);
+    }
+}
