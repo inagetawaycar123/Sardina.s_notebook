@@ -1,0 +1,11 @@
+# .vscode
+.vscode/
+**/.vscode/**
+
+# idea
+.idea/**
+
+# obsidian
+.obsidian/**
+LeetCode.base
+main
