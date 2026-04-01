@@ -6,6 +6,7 @@ tags:
   - 链表
 ---
 # 原题
+
 [合并两个有序链表](https://leetcode.cn/problems/merge-two-sorted-lists/solutions/226408/he-bing-liang-ge-you-xu-lian-biao-by-leetcode-solu/?envType=problem-list-v2&envId=linked-list)
 
 >将两个升序链表合并为一个新的 **升序** 链表并返回。新链表是通过拼接给定的两个链表的所有节点组成的。
