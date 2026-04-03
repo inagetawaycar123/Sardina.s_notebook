@@ -6,6 +6,6 @@
 .idea/**
 
 # obsidian
-.obsidian/**
+**/.obsidian/**
 LeetCode.base
 main
