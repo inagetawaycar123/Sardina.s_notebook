@@ -34,3 +34,4 @@ tags:
     free(result);    // 释放内存
     result = NULL;   // 防止野指针
 ```
+
